@@ -74,14 +74,15 @@ a:hover{
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
   z-index: 1;
-  position: absolute;
-  top: -50px;
 
   /*Your code here*/
+  position: absolute;
+  top: -50px;
 }
 /*Req 3b*/
 .skip a:focus{
   top: 10px;
+  position: relative;
 }
 
 /*Req 4*/
@@ -142,6 +143,7 @@ header{
 /*Req 7b & 8d*/
 .about, .about-image{
    /*Your Code Here*/
+   display: grid;
    grid-row: 1 / span 1;
 
 }
@@ -192,7 +194,6 @@ header{
     
   /*Req 10*/
   nav{
-    padding: 30px 0px;
     /*Your code here:*/
     padding: 30px 0px;
     text-align: right;
@@ -218,7 +219,7 @@ header{
   .about-image, .client-image, .method, .contacts{
     /*Your code here:*/
     display-grid;
-    grid-column: 3 / span 2;
+    grid-column: 2 / span 2;
   }
 }
 
